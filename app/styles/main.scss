@@ -1,16 +1,18 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 // bower:scss
-
-
 $font-family-sans-serif:  "Novecentosanswide", Helvetica, Arial, sans-serif !default;
 $font-family-serif:       "Novecentosanswide", "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   "Novecentosanswide", Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
-
-
+$grid-float-breakpoint:     5000px !default;
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
 @import "components/_fonts.scss";
+@import "components/_header.scss";
 
+
+body{
+  background-color: #F8F8F8
+}
